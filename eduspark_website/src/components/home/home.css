@@ -34,7 +34,7 @@
 }
 
 .primary-btn,
-.secondary-btn {
+button {
   padding: 12px 30px; /* Adjusted padding for buttons */
   font-size: 18px; /* Sets font size for buttons */
   background-color: #007bff; /* Sets background color for buttons */
@@ -43,11 +43,11 @@
   border-radius: 5px; /* Adds border radius */
   cursor: pointer; /* Changes cursor to pointer on hover */
   transition: background-color 0.3s ease; /* Adds transition effect */
-  margin: 0 30px; /* Adds space between buttons */
+  margin: 0 20px; /* Adds space between buttons */
 }
 
 .primary-btn:hover,
-.secondary-btn:hover {
+button:hover {
   background-color: #0056b3; /* Changes background color on hover */
 }
 
