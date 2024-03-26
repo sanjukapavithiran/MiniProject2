@@ -1,0 +1,31 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 800px; /* Optional: You can set a max-width if needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,60 @@
+.coursesCard {
+  padding: 50px 0;
+}
+
+.container.grid2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.coursesCard .items {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: calc(50% - 20px); /* Adjust width to accommodate two items with 20px space in between */
+  height: auto; /* Reset height to auto */
+  margin-bottom: 40px; /* Add space between rows */
+  box-sizing: border-box; /* Include padding and border in the total height */
+  position: relative; /* Positioning context for the image */
+}
+
+.coursesCard .img {
+  width: 100px; /* Adjust width of the image */
+  height: 100px; /* Adjust height of the image */
+  border-radius: 10px; /* Adjust border-radius for rectangle shape */
+  background-color: #1eb2a6;
+  padding: 10px;
+  position: absolute; /* Position the image absolutely */
+  top: 20px; /* Adjust vertical position of the image */
+  left: 50%; /* Move the image to the horizontal center */
+  transform: translateX(-50%); /* Center the image horizontally */
+}
+
+.coursesCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px; /* Maintain border-radius for consistency */
+}
+
+.coursesCard .price {
+  position: absolute; /* Position relative to the parent */
+  bottom: calc(50% - 50px); /* Adjust vertical position dynamically */
+  left: 0; /* Align with the left edge of the parent */
+  width: 100%; /* Take full width of the parent */
+  background-color: #f8f8f8;
+  padding: 10px 0; /* Adjust padding */
+}
+
+.coursesCard .enroll {
+  position: absolute; /* Position relative to the parent */
+  bottom: calc(50% + 30px); /* Adjust vertical position dynamically */
+  left: 0; /* Align with the left edge of the parent */
+  width: 100%; /* Take full width of the parent */
+}
+
+.coursesCard h3 {
+  font-weight: 500;
+  color: #1eb2a6;
+}

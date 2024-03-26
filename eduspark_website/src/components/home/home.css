@@ -1,0 +1,58 @@
+.heading h1 {
+  margin-bottom: 5px; /* Reduce bottom margin of h1 */
+}
+.heading h3 {
+  margin-top: 0; /* Remove top margin of h3 */
+}
+.home {
+  height: 76vh; /* Sets the height to 76% of the viewport height */
+  width: 100%; /* Takes the full width of its container */
+  background-image: url("../../../../public/images/bg.jpg"); /* Sets the background image */
+  background-size: cover; /* Ensures the background image covers the entire element */
+  background-position: center; /* Centers the background image */
+  display: flex; /* Displays children in a flex container */
+  justify-content: center; /* Centers children horizontally */
+  align-items: center; /* Centers children vertically */
+  text-align: center; /* Aligns text center */
+  overflow: hidden; /* Prevents overflow within the .home section */
+}
+
+.container {
+  width: 90%; /* Sets the width of the container to 90% of its parent */
+  max-width: 1200px; /* Sets the maximum width of the container to 1200px */
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+.row {
+  margin-top: 30px; /* Adds margin on top of the row */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 12px 30px; /* Adjusted padding for buttons */
+  font-size: 18px; /* Sets font size for buttons */
+  background-color: #007bff; /* Sets background color for buttons */
+  color: #fff; /* Sets text color for buttons */
+  border: none; /* Removes border */
+  border-radius: 5px; /* Adds border radius */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Adds transition effect */
+  margin: 0 30px; /* Adds space between buttons */
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+  background-color: #0056b3; /* Changes background color on hover */
+}
+
+.home p {
+  text-align: justify; /* Aligns text within <p> elements to justify */
+  font-size: 18px;
+  font-weight: 450;
+}
