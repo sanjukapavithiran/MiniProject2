@@ -1,7 +1,6 @@
 .head {
   padding: 20px 0px 5px;
   color: #fff;
-  /*background-color: lightcoral;*/
   background-image: url("../../../../public/images/bg.jpg");
   
   display: flex; /* Use flexbox */
@@ -24,7 +23,6 @@
 }
 
 header {
-  /*background-color: lightcoral;*/
   background-image: url("../../../../public/images/bg.jpg");
   margin: 0;
 }
