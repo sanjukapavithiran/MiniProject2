@@ -6,7 +6,6 @@ const EnrollmentPage = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Display an alert message
     alert('Enrollment Request submitted!'); 
   };
 
