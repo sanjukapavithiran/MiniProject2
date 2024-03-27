@@ -8,6 +8,7 @@ import Contact from "../components/contact/Contact";
 import SignIn from "../components/signin/Signin";
 import ErrorPage from "../components/error/ErrorPage";
 import EnrollmentPage from "../components/enrollment/EnrollmentPage";
+import FAQ from "../components/faq/Faq"
 
 
 
@@ -26,6 +27,7 @@ const AppRoutes = () => {
             <Route path='/signin' element={<SignIn />} />
             <Route path='/enroll/:courseName' element={<EnrollmentPage />} />
             <Route path="*" element={<ErrorPage />} />
+            <Route path='/faq' element={<FAQ />} />
           </Routes>
         </>
    
