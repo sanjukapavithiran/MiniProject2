@@ -31,7 +31,11 @@ export default function SignIn() {
       alert('Password must include ! or *');
     } else {
       // Display welcome message on successful login
-      alert(`Successful login. Welcome ${email} 😊`);
+      const welcomeMessage = `Successful login. Welcome ${email} 😊`;
+      alert(welcomeMessage);
+
+      // Redirect to courses page after clicking OK on successful login message
+      window.location.href = '/courses'; 
     }
   };
 

@@ -10,10 +10,13 @@ import ErrorPage from "../components/error/ErrorPage";
 import EnrollmentPage from "../components/enrollment/EnrollmentPage";
 
 
+
 const AppRoutes = () => {
   return (
-    <>
+
       <BrowserRouter>
+  
+        <>
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -24,10 +27,13 @@ const AppRoutes = () => {
             <Route path='/enroll/:courseName' element={<EnrollmentPage />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
+        </>
+   
       </BrowserRouter>
-    </>
+    
   );
 };
 
 export default AppRoutes;
+
 

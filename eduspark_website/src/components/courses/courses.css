@@ -10,11 +10,11 @@
 
 .coursesCard .items {
   background-color: #fff;
-  padding: 10px; /* Adjust padding for better spacing */
+  padding: 10px; 
   text-align: center;
-  width: calc(50% - 20px); /* Adjust width to accommodate two items with 20px space in between */
-  height: auto; /* Reset height to auto */
-  margin-bottom: 20px; /* Reduce space between rows */
+  width: calc(50% - 20px); 
+  height: auto; 
+  margin-bottom: 20px; 
   box-sizing: border-box; /* Include padding and border in the total height */
   position: relative; /* Positioning context for the image */
   max-height: 400px; /* Set a maximum height for each card */
@@ -25,18 +25,18 @@
   width: 120px; 
   height: 120px; 
   object-fit: cover; /* Ensure the image covers the entire container */
-  border-radius: 10px; /* Adjust border-radius for rectangle shape */
+  border-radius: 10px; 
   background-color: #1eb2a6;
 }
 
 .coursesCard .cname,
 .coursesCard .price {
-  padding: 0; /* Adjust padding */
+  padding: 0; 
 }
 
 .coursesCard .enroll {
   background-color: #1eb2a6;
-  padding: 10px 0; /* Adjust padding */
+  padding: 10px 0; 
  }
  
 .coursesCard .outline-btn {

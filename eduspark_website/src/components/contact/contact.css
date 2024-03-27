@@ -26,15 +26,15 @@
 .contact-container form {
     margin-top: 20px;
     width: 75%;
-    background-color: grey;
+    background-color: #1eb2a6;
     padding: 50px;
-    margin: 0 auto; /* Center the form horizontally */
+    margin: 0 auto; 
 }
 
 .contact-container form .MuiFormControl-root {
-    margin-bottom: 15px; /* Add spacing between form elements */
+    margin-bottom: 15px; 
 }
 
 .contact-container form .MuiFormControl-root:last-child {
-    margin-bottom: 0; /* Remove margin from last form element */
+    margin-bottom: 0; 
 }
