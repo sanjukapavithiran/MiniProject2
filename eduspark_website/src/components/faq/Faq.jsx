@@ -36,8 +36,8 @@ const FaqPage = () => {
               style={{
                 display: expandedId === index ? "block" : "none",
                 padding: "10px",
-                background: "#1eb2a6", // Dark Cyan
-                color: "#fff", // White text
+                background: "#1eb2a6", 
+                color: "#fff", 
                 borderRadius: "5px",
                 boxShadow: "0px 2px 5px rgba(0,0,0,0.1)",
               }}
