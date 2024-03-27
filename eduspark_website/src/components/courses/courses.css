@@ -1,16 +1,14 @@
 .coursesCard {
   padding: 35px 0; /* Adds padding above and below the card grid */
- }
- 
- 
- .container.grid2 {
+}
+
+.container.grid2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
- }
- 
- 
- .coursesCard .items {
+}
+
+.coursesCard .items {
   background-color: #fff;
   padding: 10px; /* Adjust padding for better spacing */
   text-align: center;
@@ -20,47 +18,36 @@
   box-sizing: border-box; /* Include padding and border in the total height */
   position: relative; /* Positioning context for the image */
   max-height: 400px; /* Set a maximum height for each card */
- }
- 
- 
- .coursesCard .img img {
-  width: 120px;
-  height: 120px;
+  overflow: hidden; /* Ensure that any content exceeding the height of the card is hidden */
+}
+
+.coursesCard .img img {
+  width: 120px; 
+  height: 120px; 
   object-fit: cover; /* Ensure the image covers the entire container */
   border-radius: 10px; /* Adjust border-radius for rectangle shape */
   background-color: #1eb2a6;
- }
- 
- 
- .coursesCard .cname {
+}
+
+.coursesCard .cname,
+.coursesCard .price {
   padding: 0; /* Adjust padding */
- }
- 
- 
- 
- 
- .coursesCard .price {
-  padding: 0; /* Adjust padding */
- }
- 
- 
- .coursesCard .enroll {
+}
+
+.coursesCard .enroll {
   background-color: #1eb2a6;
   padding: 10px 0; /* Adjust padding */
  }
  
- 
- .coursesCard .outline-btn {
+.coursesCard .outline-btn {
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
- }
- 
- 
- .coursesCard h3 {
+}
+
+.coursesCard h3 {
   font-weight: 500;
   color: #1eb2a6;
- }
- 
+}
