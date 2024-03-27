@@ -1,1 +1,1 @@
-# MiniProject2
+MiniProject2 is based on an educational website called: EduSpark
