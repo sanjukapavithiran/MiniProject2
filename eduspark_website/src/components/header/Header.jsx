@@ -23,7 +23,7 @@ const Header = () => {
               <Link to='/contact'>Contact</Link>
             </li>
             <li>
-              <Link to='/signup'>SignUp</Link>
+              <Link to='/signin'>Join Us</Link>
             </li>
           </ul>
         </nav>

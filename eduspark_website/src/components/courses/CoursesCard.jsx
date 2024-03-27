@@ -1,10 +1,16 @@
 import React from "react";
-import { coursesCard } from "../../data";
-import "./courses.css"; 
+import { useNavigate } from "react-router-dom"; // Import useNavigate hook
+import { coursesCard } from "../../data"; // Import courses data
+import "./courses.css"; // Import CSS styles
 
 const CoursesCard = ({ selectedCategory }) => {
-  // Filter courses based on selected category
+  const navigate = useNavigate(); // Initialize useNavigate hook
+
   const filteredCourses = selectedCategory === "All" ? coursesCard : coursesCard.filter(course => course.category === selectedCategory);
+
+  const handleEnrollClick = (courseName) => {
+    navigate(`/enroll/${courseName}`); // Navigate to the enrollment page with the course name as a parameter
+  };
 
   return (
     <section className='coursesCard'>
@@ -22,7 +28,7 @@ const CoursesCard = ({ selectedCategory }) => {
                 <h3>{course.priceAll} / {course.pricePer}</h3>
               </div>
               <div className='enroll'>
-                <button className='outline-btn'>ENROLL NOW!</button>
+                <button className='outline-btn' onClick={() => handleEnrollClick(course.coursesName)}>ENROLL NOW!</button>
               </div>
             </div>
           </div>
